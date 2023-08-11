@@ -601,28 +601,28 @@ div.card.show div.flap2 {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .ncard:nth-child(1):before {
-  background-image: url("../assets/sd/Negative prompt images/n1. Default Negative.webp");
+  background-image: url("assets/sd/Negative prompt images/n1. Default Negative.webp");
 }
 .ncard:nth-child(2):before {
-  background-image: url("../assets/sd/Negative prompt images/n2. Negative (sfw).webp");
+  background-image: url("assets/sd/Negative prompt images/n2. Negative (sfw).webp");
 }
 .ncard:nth-child(3):before {
-  background-image: url("../assets/sd/Negative prompt images/n3. Negative (low token).webp");
+  background-image: url("assets/sd/Negative prompt images/n3. Negative (low token).webp");
 }
 .ncard:nth-child(4):before {
-  background-image: url("../assets/sd/Negative prompt images/n4. Negative (landscapes).webp");
+  background-image: url("assets/sd/Negative prompt images/n4. Negative (landscapes).webp");
 }
 .ncard:nth-child(5):before {
-  background-image: url("../assets/sd/Negative prompt images/n5. Negative (cityscapes).webp");
+  background-image: url("assets/sd/Negative prompt images/n5. Negative (cityscapes).webp");
 }
 .ncard:nth-child(6):before {
-  background-image: url("../assets/sd/Negative prompt images/n6. Negative (portraits).webp");
+  background-image: url("assets/sd/Negative prompt images/n6. Negative (portraits).webp");
 }
 .ncard:nth-child(7):before {
-  background-image: url("../assets/sd/Negative prompt images/n7. Negative (photorealistic).webp");
+  background-image: url("assets/sd/Negative prompt images/n7. Negative (photorealistic).webp");
 }
 .ncard:nth-child(8):before {
-  background-image: url("../assets/sd/Negative prompt images/n8. Negative (art).webp");
+  background-image: url("assets/sd/Negative prompt images/n8. Negative (art).webp");
 }
 .ncontent {
   position: relative;
