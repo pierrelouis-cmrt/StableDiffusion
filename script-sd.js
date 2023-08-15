@@ -1,10 +1,11 @@
+  
 // -------------------------------------------------
 // Nav Bar
 // -------------------------------------------------
 let selectedItem = null;
 
 // Get navigation and filter items
-const navItems = document.querySelectorAll('a.button');
+const navItems = document.querySelectorAll('a.button-top');
 const filterItems = document.querySelectorAll('a.button-filter');
 
 // Explicitly select ALL filter on init

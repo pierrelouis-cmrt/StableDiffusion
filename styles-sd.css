@@ -55,6 +55,7 @@ hr {
   --orange: rgb(247, 126, 33);
   --gold: rgb(250, 194, 19);
   --yellow: rgb(254, 249, 167);
+  --brown: rgb(146, 114, 9);
 }
 
 @keyframes background-pan {
@@ -87,21 +88,12 @@ hr {
   }
 }
 
-body {
-  background-color: rgb(10, 10, 10);
-  display: grid;
-  height: 100vh;
-  margin: 0px;
-  overflow: hidden;
-  place-items: center;
-}
-
 h3 {
   color: white;
   font-family: "Rubik", sans-serif;
   font-size: clamp(2em, 2vw, 4em);
   font-weight: 400;
-  margin: 0px;
+  margin-top: 5px;
   padding: 20px;
   text-align: center;
 }
@@ -130,7 +122,7 @@ h3 > .magic > .magic-star > svg {
 }
 
 h3 > .magic > .magic-star > svg > path {
-  fill: var(--gold);
+  fill: var(--brown);
 }
 
 h3 > .magic > .magic-text {
@@ -148,6 +140,71 @@ h3 > .magic > .magic-text {
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
 }
+@media (max-width: 758px) {
+  h3 {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 300px) {
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+/*----------------------------------------------------------*/
+/*-----------------------BIG BTN----------------------------*/
+/*----------------------------------------------------------*/
+/* Center the buttons vertically and horizontally */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Adding a background color for better visualization */
+}
+
+/* Reset default margin and padding for elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Restyling the buttons */
+.big-buttons {
+  text-align: center; /* Center align the buttons within the container */
+}
+
+.big-btn {
+  /* Existing properties */
+  position: relative;
+  display: inline-block; /* Change display to inline-block */
+  overflow: hidden;
+  width: 40%; /* Reduce the width further */
+  max-width: 150px; /* Adjust max-width */
+  margin: 0.5rem; /* Adjust margin for spacing between buttons */
+  text-transform: uppercase;
+  color: var(--gold);
+  text-decoration: none; /* Remove text decoration */
+
+  /* New properties */
+  height: 40px; /* Reduce the height */
+  border: 3px solid var(--gold); /* Increase border thickness */
+  border-radius: 20px; /* Rounded border */
+  line-height: 40px; /* Vertically center the text */
+}
+
+.big-btn:hover {
+  color: var(--yellow);
+  border-color: var(--yellow); /* Change border color on hover */
+}
+
+.big-btn:active {
+  background-color: var(--orange);
+  border-color: var(--orange); /* Change border color when clicked */
+}
+
+
 
 /*----------------------------------------------------------*/
 /*-----------------------NAV BAR----------------------------*/
@@ -206,7 +263,7 @@ nav > ol {
   font-size: 17.5px;
   text-align: justify;
 }
-.button,
+.button-top,
 .button-filter {
   padding: 20px 0 20px 20px;
   display: flex;
