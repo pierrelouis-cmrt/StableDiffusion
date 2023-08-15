@@ -93,7 +93,8 @@ h3 {
   font-family: "Rubik", sans-serif;
   font-size: clamp(2em, 2vw, 4em);
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   padding: 20px;
   text-align: center;
 }
@@ -154,56 +155,52 @@ h3 > .magic > .magic-text {
 /*----------------------------------------------------------*/
 /*-----------------------BIG BTN----------------------------*/
 /*----------------------------------------------------------*/
-/* Center the buttons vertically and horizontally */
-html, body {
-  height: 100%;
-  margin: 0;
+
+
+.big-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0; /* Adding a background color for better visualization */
-}
-
-/* Reset default margin and padding for elements */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Restyling the buttons */
-.big-buttons {
-  text-align: center; /* Center align the buttons within the container */
+  text-align: center;
 }
 
 .big-btn {
-  /* Existing properties */
   position: relative;
-  display: inline-block; /* Change display to inline-block */
+  display: inline-block;
   overflow: hidden;
-  width: 40%; /* Reduce the width further */
-  max-width: 150px; /* Adjust max-width */
-  margin: 0.5rem; /* Adjust margin for spacing between buttons */
+  width: 20%;
+  max-width: 150px;
+  margin: 0.5rem;
   text-transform: uppercase;
   color: var(--gold);
-  text-decoration: none; /* Remove text decoration */
-
-  /* New properties */
-  height: 40px; /* Reduce the height */
-  border: 3px solid var(--gold); /* Increase border thickness */
-  border-radius: 20px; /* Rounded border */
-  line-height: 40px; /* Vertically center the text */
+  text-decoration: none;
+  border: 3px solid var(--gold); 
+  border-radius: 20px;
+  line-height: 40px;
 }
 
 .big-btn:hover {
   color: var(--yellow);
-  border-color: var(--yellow); /* Change border color on hover */
+  border-color: var(--yellow);
+}
+.big-btn > svg {
+  fill:rgb(250, 194, 19);
+}
+
+.big-btn:hover > svg {
+  fill: var(--yellow);
 }
 
 .big-btn:active {
-  background-color: var(--orange);
-  border-color: var(--orange); /* Change border color when clicked */
+  background-color: rgb(236, 152, 57);
+  border-color: rgb(247, 126, 33);
 }
 
+@media (max-width: 550px) {
+  .big-btn {
+    width: 30%;
+  }
+}
 
 
 /*----------------------------------------------------------*/
