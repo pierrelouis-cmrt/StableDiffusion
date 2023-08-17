@@ -1,7 +1,9 @@
-  
+
+
 // -------------------------------------------------
 // Nav Bar
 // -------------------------------------------------
+
 let selectedItem = null;
 
 // Get navigation and filter items
@@ -78,6 +80,23 @@ document.getElementById("delayButton").addEventListener("click", function(event)
 		this.disabled = false;
 	}, 0);
 });
+
+// Random Button
+const randomButton = document.getElementById('random');
+
+randomButton.addEventListener('mousedown', function(event) {
+  if (event.button === 0) { // Check if left mouse button is pressed
+    this.classList.add('selected');
+
+    const removeSelectedClass = () => {
+      this.classList.remove('selected');
+      window.removeEventListener('mouseup', removeSelectedClass);
+    };
+
+    window.addEventListener('mouseup', removeSelectedClass);
+  }
+});
+
 
 // MOBILE NAV BAR -----------------
 
@@ -403,3 +422,26 @@ searchInputMobileNav.addEventListener("keypress", (event) => {
 
 // Call the updateNCardsGridLayout function on page load to set the initial layout
 window.addEventListener("load", updateNCardsGridLayout);
+
+
+// -------------------------------------------------
+// Random Button
+// -------------------------------------------------
+
+document.addEventListener("DOMContentLoaded", function() {
+	const randomButton = document.getElementById("random");
+	randomButton.addEventListener("click", showRandomCard);
+
+	function showRandomCard() {
+		const cards = document.querySelectorAll(".card");
+		const randomIndex = Math.floor(Math.random() * pcardsData.length);
+
+		// Hide all cards
+		cards.forEach(card => {
+			card.style.display = "none";
+		});
+
+		// Show the selected random card
+		cards[randomIndex].style.display = "block";
+	}
+});
