@@ -243,7 +243,7 @@ function filterCards() {
 
 	if (currentFilter === 'negative') {
 		pcards.style.display = 'none';
-		ncards.style.display = 'grid';
+		ncards.style.display = 'flex';
 	}
 
 	// After applying the filter, also perform a search if there's a search query
@@ -275,7 +275,7 @@ function mfilterCards() {
 
 	if (currentFilter === 'negative') {
 		pcards.style.display = 'none';
-		ncards.style.display = 'grid';
+		ncards.style.display = 'flex';
 	}
 
 	// After applying the filter, also perform a search if there's a search query
