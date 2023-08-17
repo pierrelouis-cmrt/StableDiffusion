@@ -4,119 +4,160 @@
 // Nav Bar
 // -------------------------------------------------
 
-let selectedItem = null;
-
-// Get navigation and filter items
-const navItems = document.querySelectorAll('a.button-top');
-const filterItems = document.querySelectorAll('a.button-filter');
-
-// Explicitly select ALL filter on init
-const allFilter = document.querySelector('a.button-filter[data-filter="all"]');
-allFilter.classList.add('selected');
-let selectedFilter = allFilter;
-
-// Get the search button
-const searchBtn = document.getElementById('searchButton');
-
-// Add event listeners
-navItems.forEach(item => {
-	item.addEventListener('click', selectNavItem);
+document.addEventListener("DOMContentLoaded", () => {
+	// Random Button for Desktop Nav
+	const randomButtonDesktop = document.getElementById("random-desktop");
+  
+	randomButtonDesktop.addEventListener("click", () => {
+	  const cards = document.querySelectorAll(".card");
+	  const randomIndex = Math.floor(Math.random() * pcardsData.length);
+  
+	  cards.forEach(card => card.style.display = "none");
+	  cards[randomIndex].style.display = "block";
+	});
+  
+	randomButtonDesktop.addEventListener("mousedown", function(event) {
+	  if (event.button === 0) {
+		this.classList.add('selected');
+  
+		const removeSelectedClass = () => {
+		  setTimeout(() => this.classList.remove('selected'), 75);
+		  window.removeEventListener('mouseup', removeSelectedClass);
+		};
+  
+		window.addEventListener('mouseup', removeSelectedClass);
+	  }
+	});
+  
+	// Random Button for Mobile Nav
+	const randomButtonMobile = document.getElementById("random-mobile");
+  
+	randomButtonMobile.addEventListener("click", () => {
+	  const cards = document.querySelectorAll(".card");
+	  const randomIndex = Math.floor(Math.random() * pcardsData.length);
+  
+	  cards.forEach(card => card.style.display = "none");
+	  cards[randomIndex].style.display = "block";
+	});
+  
+	randomButtonMobile.addEventListener("mousedown", function(event) {
+	  if (event.button === 0) {
+		this.classList.add('selected');
+  
+		const removeSelectedClass = () => {
+		  setTimeout(() => this.classList.remove('selected'), 75);
+		  window.removeEventListener('mouseup', removeSelectedClass);
+		};
+  
+		window.addEventListener('mouseup', removeSelectedClass);
+	  }
+	});
+  
 });
+  
 
-filterItems.forEach(item => {
-	item.addEventListener('click', selectFilter);
-});
+document.addEventListener('DOMContentLoaded', function() {
+	let selectedItem = null;
 
-function selectNavItem() {
-	// Unselect search button if home clicked
-	if (this.classList.contains('selected')) {
-		searchBtn.classList.remove('selected');
+	// Get navigation and filter items
+	const navItems = document.querySelectorAll('a.button-top');
+	const filterItems = document.querySelectorAll('a.button-filter');
+
+	// Explicitly select ALL filter on init
+	const allFilter = document.querySelector('a.button-filter[data-filter="all"]');
+	allFilter.classList.add('selected');
+	let selectedFilter = allFilter;
+
+	// Get the search button
+	const searchBtn = document.getElementById('searchButton');
+
+	// Add event listeners
+	navItems.forEach(item => {
+		item.addEventListener('click', selectNavItem);
+	});
+
+	filterItems.forEach(item => {
+		item.addEventListener('click', selectFilter);
+	});
+
+	function selectNavItem() {
+		// Unselect search button if home clicked
+		if (this.classList.contains('selected')) {
+			searchBtn.classList.remove('selected');
+		}
+
+		if (this === selectedItem) {
+			this.classList.remove('selected');
+			selectedItem = null;
+		} else {
+			this.classList.add('selected');
+			if (selectedItem) {
+				selectedItem.classList.remove('selected');
+			}
+			selectedItem = this;
+		}
 	}
 
-	if (this === selectedItem) {
-		this.classList.remove('selected');
-		selectedItem = null;
-	} else {
+	function selectFilter() {
+		if (this === selectedFilter) return;
+
+		if (selectedFilter) {
+			selectedFilter.classList.remove('selected');
+		}
+
 		this.classList.add('selected');
+		selectedFilter = this;
+
+		// Unselect nav item if selected
 		if (selectedItem) {
 			selectedItem.classList.remove('selected');
+			selectedItem = null;
 		}
-		selectedItem = this;
-	}
-}
-
-function selectFilter() {
-	if (this === selectedFilter) return;
-
-	if (selectedFilter) {
-		selectedFilter.classList.remove('selected');
 	}
 
-	this.classList.add('selected');
-	selectedFilter = this;
+	// Search button logic
+	const searchInput = searchBtn.querySelector('input.search');
 
-	// Unselect nav item if selected
-	if (selectedItem) {
-		selectedItem.classList.remove('selected');
-		selectedItem = null;
-	}
-}
-
-// Search button logic
-const searchInput = searchBtn.querySelector('input.search');
-
-searchBtn.addEventListener('click', e => {
-	e.preventDefault();
-	searchInput.focus();
-});
-
-
-// Home button delay
-document.getElementById("delayButton").addEventListener("click", function(event) {
-	event.preventDefault();
-	this.disabled = true;
-	setTimeout(() => {
-		window.open(this.href, "_blank");
-		this.disabled = false;
-	}, 0);
-});
-
-// Random Button
-const randomButton = document.getElementById('random');
-
-randomButton.addEventListener('mousedown', function(event) {
-  if (event.button === 0) { // Check if left mouse button is pressed
-    this.classList.add('selected');
-
-    const removeSelectedClass = () => {
-      this.classList.remove('selected');
-      window.removeEventListener('mouseup', removeSelectedClass);
-    };
-
-    window.addEventListener('mouseup', removeSelectedClass);
-  }
-});
-
-
-// MOBILE NAV BAR -----------------
-
-// Selected status of filter buttons
-const buttonFilters = document.querySelectorAll('.mbutton-filter');
-
-// Add event listener to each button-filter
-buttonFilters.forEach(button => {
-	button.addEventListener('click', () => {
-		// Remove the 'selected' class from all button-filters
-		buttonFilters.forEach(btn => btn.classList.remove('selected'));
-		// Add the 'selected' class to the clicked button-filter
-		button.classList.add('selected');
+	searchBtn.addEventListener('click', e => {
+		e.preventDefault();
+		searchInput.focus();
 	});
+
+
+	// Home button delay
+	document.getElementById("delayButton").addEventListener("click", function(event) {
+		event.preventDefault();
+		this.disabled = true;
+		setTimeout(() => {
+			window.open(this.href, "_blank");
+			this.disabled = false;
+		}, 0);
+	});
+
+	// Mobile Button Filters
+	const mButtonFilters = document.querySelectorAll('.mbutton-filter');
+  
+	mButtonFilters.forEach(button => {
+	  button.addEventListener('click', () => {
+		mButtonFilters.forEach(btn => btn.classList.remove('selected'));
+		button.classList.add('selected');
+	  });
+	});
+
+	// Close the menu and the keyboard when Enter key is pressed in the search input
+	const menuCheckbox = document.querySelector('input[aria-label="checkbox-menu"]');
+	searchInputMobileNav.addEventListener("keypress", (event) => {
+		if (event.key === "Enter") {
+			menuCheckbox.checked = false;
+			searchInputMobileNav.blur();
+		}
+	});
+  
+	// Explicitly select ALL filter on init
+	const allmFilter = document.querySelector('.mbutton-filter[data-filter="all"]');
+	allmFilter.classList.add('selected');
 });
 
-// Explicitly select ALL filter on init
-const allmFilter = document.querySelector('.mbutton-filter[data-filter="all"]');
-allmFilter.classList.add('selected');
-let mselectedFilter = allmFilter;
 
 // -------------------------------------------------
 // Big Title
@@ -410,38 +451,6 @@ searchInputMobileNav.addEventListener("input", (event) => {
     filterResults(searchQuery);
 });
 
-// Close the menu and the keyboard when Enter key is pressed in the search input
-const menuCheckbox = document.querySelector('input[aria-label="checkbox-menu"]');
-searchInputMobileNav.addEventListener("keypress", (event) => {
-    if (event.key === "Enter") {
-        menuCheckbox.checked = false; // Uncheck the checkbox to close the menu
-        searchInputMobileNav.blur(); // Remove focus from the input to close the keyboard
-    }
-});
-
 
 // Call the updateNCardsGridLayout function on page load to set the initial layout
 window.addEventListener("load", updateNCardsGridLayout);
-
-
-// -------------------------------------------------
-// Random Button
-// -------------------------------------------------
-
-document.addEventListener("DOMContentLoaded", function() {
-	const randomButton = document.getElementById("random");
-	randomButton.addEventListener("click", showRandomCard);
-
-	function showRandomCard() {
-		const cards = document.querySelectorAll(".card");
-		const randomIndex = Math.floor(Math.random() * pcardsData.length);
-
-		// Hide all cards
-		cards.forEach(card => {
-			card.style.display = "none";
-		});
-
-		// Show the selected random card
-		cards[randomIndex].style.display = "block";
-	}
-});

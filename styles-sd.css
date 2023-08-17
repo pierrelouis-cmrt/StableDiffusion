@@ -355,11 +355,6 @@ nav > ol > a:not(.selected):hover::after {
     height: 100%;
     overflow-y: auto;
   }
-  .pcards,
-  .ncards {
-    justify-content: center;
-    overflow-y: auto;
-  }
   label {
     display: block;
     align-content: center;
