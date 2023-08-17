@@ -13,7 +13,7 @@ fetch("cards.json")
       cardDiv.className = "card";
       cardDiv.innerHTML = `
         <div class="card__image-holder">
-          <img class="card__image" src="${cardData.imageSrc}" loading="lazy" /> <!-- Add loading="lazy" attribute here -->
+          <img class="card__image" src="${cardData.imageSrc}" />
         </div>
         <div class="card-title">
           <a class="toggle-info btn"> <span class="left"></span> <span class="right"></span> </a>
