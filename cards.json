@@ -2,397 +2,397 @@
     {
         "imageSrc": "assets/sd/Positive prompt images/1. Cute Stuffed Animals.webp",
         "title": "Cute Stuffed Animals",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 35",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 35",
         "description": "Cute kawaii Squishy {animal} plush toy, realistic texture, visible stitch line, soft smooth lighting, vibrant studio lighting, modular constructivism, physically based rendering, square image"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/2. Needle Felted Objects.webp",
         "title": "Needle Felted Objects",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 25",
         "description": "Tiny cute 3D felt fiber {something}, made from Felt fibers, a 3D render, trending on cgsociety, rendered in maya, rendered in cinema4d, made of yarn, square image"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/3. Silhouette wallpapers.webp",
         "title": "Silhouette wallpapers",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 25",
         "description": "Multiple layers of silhouette mountains, with silhouette of {animal}, sharp edges, at sunset, with heavy fog in air, vector style, horizon silhouette Landscape wallpaper by Alena Aenami, firewatch game style, vector style background"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/4. 3D Character.webp",
         "title": "3D Character",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 25",
         "description": "Tiny cute {animal}, standing character, soft smooth lighting, soft pastel colors, skottie young, 3d blender render, polycount, modular constructivism, pop surrealism, physically based rendering, square image,"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/5. Comic Art.webp",
         "title": "Comic Art",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 25",
         "description": "Retro comic style artwork, highly detailed {animal}, comic book cover, symmetrical, vibrant"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/6. Psychedelic Pop art.webp",
         "title": "Psychedelic Pop art",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 25",
         "description": "Hypnotic illustration of {animal}, hypnotic psychedelic art by Dan Mumford, pop surrealism, dark glow neon paint, mystical, Behance"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/7. Space Holograms.webp",
         "title": "Space Holograms",
-        "smallTitle": "Suggested CFG scale: 13 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 13 <br>Sampler Euler a, steps: 25",
         "description": "Hologram of {animal} floating in space, a vibrant digital illustration, dribbble, quantum wavetracing, black background, behance hd"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/8. Cute Stickers.webp",
         "title": "Cute Stickers",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Die-cut sticker, Cute kawaii {animal} sticker, white background, illustration minimalism, vector, pastel colors"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/9. Hyper-Realistic Anime Portraits.webp",
         "title": "Anime Portraits",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Closeup face portrait of {a person}, smooth soft skin, big dreamy eyes, beautiful intricate colored hair, symmetrical, anime wide eyes, soft lighting, detailed face, by makoto shinkai, stanley artgerm lau, wlop, rossdraws, concept art, digital painting, looking into camera"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/10. Surreal Micro Worlds.webp",
         "title": "Surreal Micro Worlds",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "100mm photo of isometric {world description}, intricate, high detail, behance, microworlds smooth, macro sharp focus, centered"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/11. Gold Pendant.webp",
         "title": "Gold Pendant",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Gold {something} pendant, intricate 2d vector geometric, cutout shape pendant, blueprint frame lines sharp edges, svg vector style, product studio shoot"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/12. Sport Team Logo.webp",
         "title": "Sport Team Logo",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "2d {something}, vector illustration, angry eyes, football team emblem logo, 2d flat, centered"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/13. Funky Pop Figurines.webp",
         "title": "Funky Pop Figurines",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Funko pop {something/somebody} figurine, made of plastic, product studio shot, on a white background, diffused lighting, centered"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/14. Block Structures.webp",
         "title": "Block Structures",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Tiny cute isometric {something}, soft smooth lighting, soft colors, soft colors, 100mm lens, 3d blender render, trending on polycount, modular constructivism, blue blackground, physically based rendering, centered"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/15. Low Poly Creatures.webp",
         "title": "Low Poly Creatures",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Kawaii low poly {something} character, 3d isometric render, white background, ambient occlusion, unity engine"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/16. Isometric Rooms.webp",
         "title": "Isometric Rooms",
-        "smallTitle": "Suggested CFG scale: 10 Sampler Euler a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10 <br>Sampler Euler a, steps: 50",
         "description": "Tiny cute isometric {room}, soft smooth lighting, soft colors, 2 colors color scheme, soft colors, 100mm lens, 3d blender render"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/17. Cute Creatures.webp",
         "title": "Cute Creatures",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "3d fluffy {something}, closeup cute and adorable, cute big circular reflective eyes, long fuzzy fur, Pixar render, unreal engine cinematic smooth, intricate detail, cinematic"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/18. Rendered Objects.webp",
         "title": "Rendered Objects",
-        "smallTitle": "Suggested CFG scale: 10-15 Sampler k_euler_a, steps: 50",
+        "smallTitle": "Suggested CFG scale: 10-15 <br>Sampler k_euler_a, steps: 50",
         "description": "Tiny cute isometric {something}, soft smooth lighting, with soft colors, 100mm lens, 3d blender render, trending on polycount, modular constructivism, blue background, physically based rendering, centered"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/19. Ghibli Style.webp",
         "title": "Ghibli Style",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "(Studio ghibli style, Art by Hayao Miyazaki:1.2), Anime Style, Manga Style, Hand drawn, cinematic, Sharp focus, humorous illustration, big depth of field, Masterpiece, concept art, trending on artstation, Vivid colors, Simplified style, trending on ArtStation, trending on CGSociety, Intricate, Vibrant colors, Soft Shading, Simplistic Features, Sharp Angles, Playful"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/20. Vector Illustrations.webp",
         "title": "Vector Illustrations",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "Vector art, Vivid colors, Clean lines, Sharp edges, Minimalist, Precise geometry, Simplistic, Smooth curves, Bold outlines, Crisp shapes, Flat colors, Illustration art piece, High contrast shadows, Technical illustration, Graphic design, Vector graphics, High contrast, Precision artwork, Linear compositions, Scalable artwork, Digital art"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/21. Digital Art.webp",
         "title": "Digital Painting",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "concept art, Hand drawn, render, 8k, cinematic, Sharp focus, big depth of field, Masterpiece, colors, concept art, hyperrealistic, bright and vibrant colors, Intricate, High Detail, poetic, beautiful lightning, ((digital painting:2)) . digital artwork, illustrative, painterly, matte painting, highly detailed"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/22. Indie Game.webp",
         "title": "Indie Game",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "Indie game art, Vector Art, Borderlands style, Arcane style, Cartoon style, Line art, Disctinct features, Hand drawn, Technical illustration, Graphic design, Vector graphics, High contrast, Precision artwork, Linear compositions, Scalable artwork, Digital art, cinematic sensual, Sharp focus, humorous illustration, big depth of field, Masterpiece, trending on artstation, Vivid colors, trending on ArtStation, trending on CGSociety, Intricate, Low Detail, dramatic"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/23. Original Photo Style.webp",
         "title": "Original Photo Style",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "Photorealistic, Hyperrealistic, Hyperdetailed, analog style, soft lighting, subsurface scattering, realistic, heavy shadow, masterpiece, best quality, ultra realistic, 8k, golden ratio, Intricate, High Detail, film photography, soft focus"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/24. Black and White.webp",
         "title": "Black and White",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "(b&w, Monochromatic, Film Photography:1.3), Photorealistic, Hyperrealistic, Hyperdetailed, film noir, analog style, soft lighting, subsurface scattering, realistic, heavy shadow, masterpiece, best quality, ultra realistic, 8k, golden ratio, Intricate, High Detail, film photography, soft focus"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/25. Animal.webp",
         "title": "Animal",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, wildlife photography, photograph, high quality, wildlife, f 1.8, soft focus, 8k, national geographic, award - winning photograph by nick nichols"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/26. Archviz.webp",
         "title": "Archviz",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, by James McDonald and Joarc Architects, home, interior, octane render, deviantart, cinematic, key art, hyperrealism, sun light, sunrays, canon eos c 300, \u0192 1.8, 35 mm, 8k, medium - format print"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/27. Building.webp",
         "title": "Building",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, shot 35 mm, realism, octane render, 8k, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, realistic matte painting, hyper photorealistic, trending on artstation, ultra - detailed, realistic"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/28. Cartoon Character.webp",
         "title": "Cartoon Character",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, anthro, very cute kid's film character, disney pixar zootopia character concept artwork, 3d concept, detailed fur, high detail iconic character for upcoming film, trending on artstation, character design, 3d artistic render, highly detailed, octane, blender, cartoon, shadows, lighting"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/29. Concept Art - Design.webp",
         "title": "Concept Art / Design",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, character sheet, concept design, contrast, style by kim jung gi, zabrocki, karlkka, jayison devadas, trending on artstation, 8k, ultra wide angle, pincushion lens effect"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/30. Cyberpunk.webp",
         "title": "Cyberpunk",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, cyberpunk, in heavy raining futuristic tokyo rooftop cyberpunk night, sci-fi, fantasy, intricate, very very beautiful, elegant, neon light, highly detailed, digital painting, artstation, concept art, soft light, hdri, smooth, sharp focus, illustration, art by tian zi and craig mullins and wlop and alphonse much"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/31. Digital Art.webp",
         "title": "Digital Art",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, ultra realistic, concept art, intricate details, highly detailed, photorealistic, octane render, 8k, unreal engine, sharp focus, volumetric lighting unreal engine. art by artgerm and alphonse mucha"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/32. Digital Art Landscape.webp",
         "title": "Digital Art Landscape",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, epic concept art by barlowe wayne, ruan jia, light effect, volumetric light, 3d, ultra clear detailed, octane render, 8k, dark green, {{colors}} colour scheme"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/33. Drawing.webp",
         "title": "Drawing",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, cute, funny, centered, award winning watercolor pen illustration, detailed, disney, isometric illustration, drawing, by Stephen Hillenburg, Matt Groening, Albert Uderzo"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/34. Fashion.webp",
         "title": "Fashion",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "photograph of a Fashion model, {Prompt}, full body, highly detailed and intricate, golden ratio, vibrant colors, hyper maximalist, futuristic, city background, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra high detail, ultra realistic, cinematic lighting, focused, 8k"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/35. Landscape.webp",
         "title": "Landscape",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, birds in the sky, waterfall close shot 35 mm, realism, octane render, 8 k, exploration, cinematic, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo - realistic maximum detail, volumetric light, moody cinematic epic concept art, realistic matte painting, hyper photorealistic, epic, trending on artstation, movie concept art, cinematic composition, ultra - detailed, realistic"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/36. Photograph Closeup.webp",
         "title": "Photograph Closeup",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, depth of field. bokeh. soft light. by Yasmin Albatoul, Harry Fayt. centered. extremely detailed. Nikon D850, (35mm|50mm|85mm). award winning photography."
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/37. Photograph Portrait.webp",
         "title": "Photograph Portrait",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "portrait photo of {Prompt}, photograph, highly detailed face, depth of field, moody light, golden hour, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/38. Postapocalyptic.webp",
         "title": "Post-apocalyptic",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, fog, animals, birds, deer, bunny, postapocalyptic, overgrown with plant life and ivy, artgerm, yoshitaka amano, gothic interior, 8k, octane render, unreal engine"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/39. Schematic.webp",
         "title": "Schematic",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "23rd century scientific schematics for {Prompt}, blueprint, hyperdetailed vector technical documents, callouts, legend, patent registry"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/40. Sketch.webp",
         "title": "Sketch",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, sketch, drawing, detailed, pencil, black and white by Adonna Khare, Paul Cadden, Pierre-Yves Riveau"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/41. Space.webp",
         "title": "Space",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, by Andrew McCarthy, Navaneeth Unnikrishnan, Manuel Dietrich, photo realistic, 8 k, cinematic lighting, hd, atmospheric, hyperdetailed, trending on artstation, deviantart, photography, glow effect"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/42. Sprite.webp",
         "title": "Sprite",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "sprite of video games {Prompt} icons, 2d icons, rpg skills icons, world of warcraft, league of legends, ability icon, fantasy, potions, spells, objects, flowers, gems, swords, axe, hammer, fire, ice, arcane, shiny object, graphic design, high contrast, artstation"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/43. Steampunk.webp",
         "title": "Steampunk",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "{Prompt}, steampunk cybernetic biomechanical, 3d model, very coherent symmetrical artwork, unreal engine realistic render, 8k, micro detail, intricate, elegant, highly detailed, centered, digital painting, artstation, smooth, sharp focus, illustration, artgerm, Caio Fantini, wlop"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/44. Vehicles.webp",
         "title": "Vehicles",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "photograph of {Prompt}, photorealistic, vivid, sharp focus, reflection, refraction, sunrays, very detailed, intricate, intense cinematic composition"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/45. Portraits.webp",
         "title": "Portraits",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "headshot, posed, candid, gender identity, cultural identity, photorealistic, expressive emotions, soft focus, close up, sideview, eye contact, age range, full depth of field, shallow depth of field"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/46. Logos.webp",
         "title": "Logos",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "mascot, emblem, lettermark"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/47. Character design.webp",
         "title": "Character design",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "warrior, cyborg, cyber punk, fairy, femme fatale, mother nature, girl next door, villain, angel, devil, knight, goddess, god, gamer, geek, popular girl, goth, artist, nun, priest, professor, muse"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/48. Realism Art.webp",
         "title": "Realism Art",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "hyper-realistic, still-life, textured"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/49. Impressionism Art.webp",
         "title": "Impressionism Art",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "pastel colors, painted light, bokeh, brushstrokes, visible brushstrokes"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/50. Landscape.webp",
         "title": "Landscape",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "pastures, serene, vistas, detailed, sun light, soft light, golden hour light"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/51. Cinematic Look.webp",
         "title": "Cinematic Look",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "cinematic photo of <i>{Prompt}</i> 35mm photograph, film, bokeh, professional, 4k, highly detailed"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/52. Model Shot.webp",
         "title": "Model Shot",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "model shot of <i>{Prompt}</i> posing for a picture , rendered in lumion pro, anime girl in real life, beautiful portrait photo, bright background"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/53. Mixed Heroes.webp",
         "title": "Mixed Heroes",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "(perfect mix between <i>{Prompt}</i> and <i>{Prompt}</i>:1.9), destroying city, blood, epic, cataclysmic, gargantuan, absurdres, best quality, realistic style"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/54. Pastel Illustration.webp",
         "title": "Pastel Illustration",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "<i>{Prompt}</i>, inspired by Cyril Rolando, shutterstock, highly detailed illustration, full color illustration, very detailed illustration, dan mumford and alex grey style"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/55. Clay Figurine.webp",
         "title": "Clay Figurine",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "claymation style <i>{Prompt}</i>, sculpture, clay art, centered composition, play-doh"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/56. Low Poly Island.webp",
         "title": "Low Poly Island",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "low-poly style <i>{Prompt}</i> island, ambient occlusion . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/57. Neon Cyberpunk.webp",
         "title": "Neon Cyberpunk",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "vaporwave style of <i>{Prompt}</i>, cyberpunk, vaporwave, neon, vibes, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, magenta highlights, dark purple shadows, high contrast, cinematic, ultra detailed, intricate, professional"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/58. Fantasy Art.webp",
         "title": "Fantasy Art",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "concept art of <i>{Prompt}</i>, clouds, digital artwork, illustrative, painterly, matte painting, highly detailed, cinematic composition"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/59. Anime Style.webp",
         "title": "Anime Style",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "anime artwork of <i>{Prompt}</i>, dramatic, anime style, key visual, vibrant, studio anime, highly detailed"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/60. Nature Photography.webp",
         "title": "Nature Photography",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "cinematic close-up photo of <i>{Prompt}</i>, 135mm IMAX filmstill, film, DOF, professional, 8k, highly detailed aesthetically pleasing color scheme, editorial"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/61. Chinese Art.webp",
         "title": "Chinese Art",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "a painting of <i>{Prompt}</i>, a fine art painting, by Qiu Ying, no gradients, flowing sakura silk, beautiful oil painting"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/62. Colorful Painting.webp",
         "title": "Colorful Painting",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "a painting of <i>{Prompt}</i>, a digital painting, by Jason Benjamin, shutterstock, colorful vector illustration, mixed media style illustration, epic full color illustration, mascot illustration"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/63. Graffiti Art.webp",
         "title": "Graffiti Art",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "a painting of <i>{Prompt}</i>, graffiti art, inspired by Brad Kunkle, tutu, russ mills, hip skirt wings, andrey gordeev"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/64. B&W Shots.webp",
         "title": "B&W Shots",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "b&w photography, model shot, <i>{Prompt}</i>, beautiful detailed eyes, professional award winning portrait photography, Zeiss 150mm f/2.8, highly detailed glossy eyes, high detailed skin, skin pores"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/65. Futuristic Armors.webp",
         "title": "Futuristic Armors",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "<i>{Prompt}</i>, looking at the camera, cyberpunk art, neo-figurative, anime, giant robot, inspired by Krenz Cushart, neoism, kawacy, wlop"
     },
     {
         "imageSrc": "assets/sd/Positive prompt images/66. Tropical Illustrations.webp",
         "title": "Tropical Illustrations",
-        "smallTitle": "Suggested CFG scale: 7 Sampler Euler a, steps: 25",
+        "smallTitle": "Suggested CFG scale: 7 <br>Sampler Euler a, steps: 25",
         "description": "<i>{Prompt}</i>, fantastic hand-dyed cotton clothes, embellished beaded feather decorative fringe knots, colorful pigtail , subtropical flowers and plants, symmetrical face, intricate, elegant, highly detailed, 8k, digital painting,trending on pinterest, harper’s bazaar, concept, art, sharp focus, illustration, Tom Bagshaw, Lawrence Alma-Tadema, Alphonse Mucha"
     }
 ]
