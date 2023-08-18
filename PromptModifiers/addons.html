@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SD Prompts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Stable Diffusion Prompt Directory.">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVR4nO3bv2sUURDA8aeigkHwB+Rm7o4oYqOICjYWYqNNwMI/wM5aEOxEsFMRFCwUhETtlDR24lXCzVyS4oKNrVoYRAsLy7t5OLIn3r5EC7Nv497uzhdee3l8mP11e3HOsizLypZ2GlNKM3tLuTqNKZdnQvDCM2pZlxB+9YzLQvDcM9wc9uCsvju6o5YY/q9A8E0YHw+4ebL2GD7EIXg9oNaJ2k6GXz8pjF4I7+mrwztrj+HTKXmry612rSfDrz2frOoSHDEMHoN8UsKZ2k+GT6ek/8c5pG6HiV9zyOBdw+DxVUYGvcYxmwweT8iCYXA6HbrUOFj7c4ZP7z9uFI4hDPPJM0TmRfhUGD/H7wVWCsfQHB7BtY+7hOFO5FXlh745sKf0GL8TwkdRIN3mOecJryZnVP+PSxg/TCKGLrZbyQNZxH6ubPiPCsP8JGL82hu+zzwZDLcqheEZViIw5iqFIQSr2THwWWUwlKYPxeylUhhCeD8Kg+BBJTCEYDa5rY7aD8G1QjGk27gg1DwftRhuR0OM9oIXC8XwE7KS+xNdbO8zDB4dIr0NQ1R1MjzDJZclqRiGEH7UvttuGDy6pM5mgqjaZAjjQxeTVAYDXuqC21Z7DCF4kvk8UZXJEMLvnvCyyyspIcboLTzDXPIFUG4QZcNI3qkm34+OXwXknUwwhhB+8QQdz3h9SNOnVd3WTUHYDIwh4Zkh4anYNei2jivv3+3+dzKBj/CFJYaRZhhBhhFkGEGGEWQYQYYRZBhBhhFkGEGGEWQYQYYRZBhBhhFkGEGGse5HqLn9X6q6LeFnW5ZlWa6c/QTp96K5bX9sowAAAABJRU5ErkJggg==" type="image/x-icon">
+  </head>
+
+
+  <div class="topbar">
+<div class="left-section">
+    <a class="topbar-icon" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABL0lEQVR4nO3WsUoDQRAG4BWxEWwMxJkjWtgIwQdJY2npAwiWvoGgtWApgpYB30CQ3IyicLZiY2tjYalmRkbOQi3cjextLkVu4C93vmVvdjnnpq4kh54SbKaMULbxfrW0boWb88MED8po44gwvAjjqeXQrRX+3gDhhzDuWd/N1gr/nACeTQTWMoQ7E4GF4dm4tRAFC+FQGQtfhPEx2COHrTiY8Sl0Rc3cjDAe+TcOJ84G2bJRe/V3hGG/CvyFE64EvvPgz0VKsFsVLh8Qfw+4GxssBIeBHjeRMLwqYz+QyxHrj6Pgylcqh179MMFFOfV1w4Vddxa9g5EaFoY3YTiwAueDE/mPqdbydQqG8F4Zz5Vh226zVhBMeZ2iShuYm6PGZrjSlHG2NuqHPRHlpqc+AVXVS3IEFuXdAAAAAElFTkSuQmCC"></a>
+    <div class="topbar-title">
+      <a class="buttons" href="#">Prompt Modifiers</a>
+    </div>
+  </div>
+
+<div class="right-section">
+    <a class="topbar-icon" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSklEQVR4nL2XvW4TQRDHTwoNcQUEeeaw0hAaEBShpKWASEkVHiAhCArMR0RBQSgQD8BL0BhewHzETnbP4BAEUgQSMQoSEATUKBQ760F7MWGjO2dvfcYrjWSd5/a3szM7998g8BhcwxEl4DxF4QwJWIgtCmfMM26Gh3zmcg6uFgsU4TUSuKQkEknkNOv8VyeJZV7F4d6BtWAfCbisJH7rBuu6CAGbJPESV4IhP2ijdJAEPPMFJkzgEi/D4WzQ+pFjSkArN3QnBbDOjdKYM1Lj2C+olf8NU5h75BSf9zT5yjhTNOrwg6epOScJV7yBUYnb3x9yPH5/YmqedL0ztzvaarHgXb0G+vMx20O3bjmrnavFwr9oBV7PC2W9xfT6TJb3y/Y2Cy/oj0oCqtcuZF14vVNUOLJXR0pCH+WBsmHFFa4kTAwKSjvwcMrk92KvOdVr095Qig3mTX7vuhz1x9t9hKLZ7nsBCbjjcmx/ebAbvNViap7ICw5nnc7NU3GDsEf71/sccJgP1DKcy+S8Mt43uBLhZGCUg5KoBgVXf4/TdgOJlQMPBC5w0epcWPbarlenU+DvmF4czQK+an+H9ysJn/PC9foNR25hM6HHjEbyrk4b3las35x1RBvOJoVAJRgiCU+84S+Ps95YYP12wgGFalfxx2L0wP+RPvDBzJ0KtfI91k94DG04xJ4dudFIucFme12Rpucc5zri3C9KAV/NV89b0Af2AlZxuHPOaxmuMDVzTnNdYVIXEbfXcIok3FQC7xvb/h1O+l7a/gCuoR1r/5RkjQAAAABJRU5ErkJggg=="></a>
+    <div class="topbar-button">
+      <a class="buttons" href="#">Go back</a>
+    </div>
+  </div>
+</div>
+  <div class="content">
+    <div class="notification"><span>Customize the prompts with Modifiers! You can modify the pre-made prompts to suit your needs.
+  </span></div>
+    <div class="filters">
+      <input class="search" placeholder="Search any category..."/>
+    </div>
+
+      <div class="cards" id="cards-container">
+        <!-- Generated cards here -->
+      </div>
+      
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
