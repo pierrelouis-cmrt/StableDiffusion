@@ -1,4 +1,4 @@
-// Custom shuffle function to shuffle array elements randomly
+// Fisher-Yates shuffle algorithm
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -11,15 +11,10 @@ fetch('promptmodifiers.json')
   .then(response => response.json())
   .then(data => {
     const cardsContainer = document.getElementById('cards-container');
-    const categories = data.map(category => category);
+    const allCards = [];
 
-    // Shuffle the categories randomly
-    shuffleArray(categories);
-
-    // Generate cards dynamically based on the shuffled categories
-    categories.forEach(category => {
-      const tagNumber = categories.indexOf(category) + 1;
-
+    // Generate cards dynamically based on the JSON data
+    data.forEach(category => {
       category.options.forEach(option => {
         const card = document.createElement('div');
         card.classList.add('card');
@@ -41,7 +36,7 @@ fetch('promptmodifiers.json')
         cardTags.appendChild(tag0);
         // Add the corresponding tag from the category
         const secondTag = document.createElement('div');
-        secondTag.classList.add('card-tag', `tag-${tagNumber}`);
+        secondTag.classList.add('card-tag', `tag-${data.indexOf(category) + 1}`);
         secondTag.textContent = category.name;
         cardTags.appendChild(secondTag);
         card.appendChild(cardTags);
@@ -51,7 +46,15 @@ fetch('promptmodifiers.json')
         cardDescription.textContent = option;
         card.appendChild(cardDescription);
 
-        cardsContainer.appendChild(card);
+        allCards.push(card);
       });
+    });
+
+    // Shuffle all the cards randomly
+    shuffleArray(allCards);
+
+    // Add the shuffled cards to the container
+    allCards.forEach(card => {
+      cardsContainer.appendChild(card);
     });
   });

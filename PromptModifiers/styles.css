@@ -1,22 +1,22 @@
-html {
+body {
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
 body div,
 body div * {
   display: flex;
   flex-direction: column;
-  color: #444;
   font-family: sans-serif;
   font-size: 16px;
+  font-weight: 600;
   line-height: 1.5;
-  margin: 0;
 }
 
 .topbar {
-  height: 40px;
-  background-color: #232323;
+  height: 60px;
+  background-color: rgba(255, 201, 95);
   padding-left: 16px;
   padding-right: 16px;
   align-items: center;
@@ -41,7 +41,8 @@ body div * {
 
 .buttons {
   text-decoration: none;
-  color: #fff;
+  color: #232323;
+  font-weight: 700;
 }
 
 .left-section,
@@ -57,7 +58,7 @@ body div * {
 
 
 .content {
-  background-color: #4f585e;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgb(35, 35, 35, 0.95) 0.5%, rgba(53, 52, 50, 0.9) 25%, rgba(68, 67, 64, 0.9) 50%, rgba(126, 125, 122, 0.9) 75%);
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 32px;
@@ -69,8 +70,11 @@ body div * {
   border: 1px solid rgba(255, 201, 95);
   margin-bottom: 32px;
 }
+.notification > span {
+  color: #fff;
+}
 .search {
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 2px solid rgba(0, 0, 0);
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -80,15 +84,23 @@ body div * {
   margin-left: -16px;
 }
 .card {
-  margin-left: 16px;
-  margin-top: 16px;
+  margin-left: 32px;
+  margin-top: 32px;
   padding: 16px;
-  background-color: #fff;
+  background-color: #EFEFEF;
   border-radius: 8px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-  min-width: 260px;
+  border: 2px solid rgba(0, 0, 0);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .25);
+  min-width: 320px;
   max-width: 420px;
   flex: 1;
+}
+@media (max-width: 356px) {
+  .card {
+    min-width: 100px;
+    width: 100px;
+    margin-left: 16px;
+  }
 }
 .card-title {
   line-height: 1;
