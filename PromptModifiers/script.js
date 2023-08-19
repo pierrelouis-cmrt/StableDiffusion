@@ -58,3 +58,35 @@ fetch('promptmodifiers.json')
       cardsContainer.appendChild(card);
     });
   });
+
+
+
+/* search system */
+
+$(document).ready(function() {
+  // Function to perform search
+  function performSearch() {
+      var searchText = $('.search').val().toLowerCase();
+
+      $('.card').each(function() {
+          var card = $(this);
+          var cardTitle = card.find('.card-title').text().toLowerCase();
+          var cardDescription = card.find('.card-description').text().toLowerCase();
+          var cardTags = card.find('.card-tag').map(function() {
+              return $(this).text().toLowerCase();
+          }).get().join(' ');
+
+          // Check if searchText is found in the card title, description, or tags
+          if (cardTitle.indexOf(searchText) !== -1 ||
+              cardDescription.indexOf(searchText) !== -1 ||
+              cardTags.indexOf(searchText) !== -1) {
+              card.show();
+          } else {
+              card.hide();
+          }
+      });
+  }
+
+  // Trigger search on input change
+  $('.search').on('input', performSearch);
+});

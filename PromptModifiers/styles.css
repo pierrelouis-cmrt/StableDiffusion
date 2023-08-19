@@ -43,6 +43,16 @@ body div * {
   text-decoration: none;
   color: #232323;
   font-weight: 700;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .buttons {
+    font-size: 17.5px;
+  }
+  .notification > span {
+    font-size: 15px !important;
+  }
 }
 
 .left-section,
@@ -56,57 +66,65 @@ body div * {
   margin-left: auto;
 }
 
-
 .content {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgb(35, 35, 35, 0.95) 0.5%, rgba(53, 52, 50, 0.9) 25%, rgba(68, 67, 64, 0.9) 50%, rgba(126, 125, 122, 0.9) 75%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgb(35, 35, 35, 0.95) 0.5%, rgba(53, 52, 50, 0.9) 25%, rgba(68, 67, 64, 0.9) 50%, rgba(126, 125, 122, 0.9) 75%, rgba(255, 255, 255) 100%);
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 .notification {
   background: linear-gradient(to right, rgba(255, 201, 95, .5) 0%, rgba(230, 184, 93, .5) 100%);
   padding: 16px;
+  border-radius: 5px;
   border: 1px solid rgba(255, 201, 95);
   margin-bottom: 32px;
+  width: 90vw;
 }
 .notification > span {
   color: #fff;
+  font-size: 20px;
 }
 .search {
+  border-radius: 50px;
   border: 2px solid rgba(0, 0, 0);
   padding-left: 15px;
   padding-right: 15px;
+  width: 50vw;
+  align-self: center;
+  height: 30px;
 }
 .cards {
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: -16px;
+  width: 75vw;
+  justify-content: center;
 }
 .card {
-  margin-left: 32px;
-  margin-top: 32px;
+  margin: 32px 0 0 24px;
   padding: 16px;
   background-color: #EFEFEF;
   border-radius: 8px;
   border: 2px solid rgba(0, 0, 0);
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .25);
   min-width: 320px;
-  max-width: 420px;
+  max-width: 37.5vw;
   flex: 1;
 }
-@media (max-width: 356px) {
+@media (max-width: 1015px) {
   .card {
-    min-width: 100px;
+    min-width: 250px;
     width: 100px;
-    margin-left: 16px;
+    margin: 32px 8px 0 8px;
+  }
+  .notification {
+    width: 75vw;
   }
 }
 .card-title {
   line-height: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .card-tags {
   flex-direction: row;
