@@ -1,0 +1,7 @@
+.content-howto, .content-more, .content-faq, .content-credits, .content-errors {
+    display: none;
+  }
+
+.title div {
+display: none;
+}
