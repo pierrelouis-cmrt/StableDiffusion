@@ -21,6 +21,30 @@ border-radius: 5px;
 margin: 20px;
 }
 
+.more {
+  display: flex;
+  align-items: flex-start;
+}
+
+.history,
+.artists,
+.photographs {
+  background-color: #232323;
+  border-radius: 25px;
+  flex: 1; /* Distribute available space evenly among the three divs */
+  padding: 10px;
+  margin: 0 25px 25px 50px;
+}
+
+.history {
+  width: 50%;
+}
+
+.artists,
+.photographs {
+  width: 20%;
+}
+
 button {
 background-color: #ffc95f;
 color: #333;
@@ -41,6 +65,7 @@ margin-left: 25px;
 color: #ffc95f;
 text-decoration: underline;
 transition: color 0.3s;
+font-size: 20px;
 }
 
 a:hover {
@@ -48,15 +73,19 @@ color: #e4a62b;
 }
 
 h1, h2, h3 {
-color: #b68219;
+  margin-top: 25px;
+  color: #b68219;
+  font-size: 30px
 }
 
 p {
-margin: 10px 0;
+margin: 10px 0 20px 0;
+font-size: 20px;
 }
 
 .title {
 margin-bottom: 20px;
+font-size: 35px
 }
 
 .title div {
@@ -68,4 +97,44 @@ transition: color 0.3s, text-shadow 0.3s;
 .title div:hover {
 color: #e4a62b;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+li:nth-child(odd) {
+  background-color: #444;
+}
+
+.art-movement {
+  font-weight: bold;
+}
+
+.photography-genre {
+  font-weight: bold;
+}
+
+.content-credits > ul {
+  margin-left: 50px;
+  list-style-type: disc;
+}
+
+.content-credits > ul > li {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.content-credits > ul > li > a {
+  margin: 0 0 15px 0 !important;
+  padding: 0;
 }
