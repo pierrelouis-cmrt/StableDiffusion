@@ -1,24 +1,28 @@
-.content-howto, .content-more, .content-faq, .content-credits, .content-errors {
+.content-howto,
+.content-more,
+.content-faq,
+.content-credits,
+.content-errors {
   display: none;
 }
 
 .title div {
-display: none;
+  display: none;
 }
 
 body {
-background-color: #232323;
-color: #fff;
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+  background-color: #232323;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
-background-color: #444;
-padding: 20px;
-border-radius: 5px;
-margin: 20px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
 }
 
 .more {
@@ -26,14 +30,29 @@ margin: 20px;
   align-items: flex-start;
 }
 
+@media screen and (max-width: 1200px) {
+  .more {
+    flex-direction: column; /* Stack the tables vertically */
+  }
+}
+
 .history,
 .artists,
 .photographs {
   background-color: #232323;
   border-radius: 25px;
-  flex: 1; /* Distribute available space evenly among the three divs */
+  flex: 1;
   padding: 10px;
   margin: 0 25px 25px 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .history,
+  .artists,
+  .photographs {
+    width: 75% !important; /* Set width to 75% */
+    margin: 25px auto; /* Center the tables */
+  }
 }
 
 .history {
@@ -46,57 +65,59 @@ margin: 20px;
 }
 
 button {
-background-color: #ffc95f;
-color: #333;
-border: none;
-padding: 10px 20px;
-margin: 5px;
-border-radius: 5px;
-cursor: pointer;
-transition: background-color 0.3s, color 0.3s;
+  background-color: #ffc95f;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-background-color: #ffc95f;
+  background-color: #ffc95f;
 }
 
 a {
-margin-left: 25px;
-color: #ffc95f;
-text-decoration: underline;
-transition: color 0.3s;
-font-size: 20px;
+  margin-left: 25px;
+  color: #ffc95f;
+  text-decoration: underline;
+  transition: color 0.3s;
+  font-size: 20px;
 }
 
 a:hover {
-color: #e4a62b;
+  color: #e4a62b;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-top: 25px;
   color: #b68219;
-  font-size: 30px
+  font-size: 30px;
 }
 
 p {
-margin: 10px 0 20px 0;
-font-size: 20px;
+  margin: 10px 0 20px 0;
+  font-size: 20px;
 }
 
 .title {
-margin-bottom: 20px;
-font-size: 35px
+  margin-bottom: 20px;
+  font-size: 35px;
 }
 
 .title div {
-font-size: 2em;
-margin: 5px;
-transition: color 0.3s, text-shadow 0.3s;
+  font-size: 2em;
+  margin: 5px;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 .title div:hover {
-color: #e4a62b;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #e4a62b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 ul {
