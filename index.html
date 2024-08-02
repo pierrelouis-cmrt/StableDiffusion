@@ -2,25 +2,31 @@
 <html lang="en">
   <head>
     <title>SD Prompts</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles-sd.css">
-    <meta name="description" content="Stable Diffusion Prompt Directory.">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVR4nO3bv2sUURDA8aeigkHwB+Rm7o4oYqOICjYWYqNNwMI/wM5aEOxEsFMRFCwUhETtlDR24lXCzVyS4oKNrVoYRAsLy7t5OLIn3r5EC7Nv497uzhdee3l8mP11e3HOsizLypZ2GlNKM3tLuTqNKZdnQvDCM2pZlxB+9YzLQvDcM9wc9uCsvju6o5YY/q9A8E0YHw+4ebL2GD7EIXg9oNaJ2k6GXz8pjF4I7+mrwztrj+HTKXmry612rSfDrz2frOoSHDEMHoN8UsKZ2k+GT6ek/8c5pG6HiV9zyOBdw+DxVUYGvcYxmwweT8iCYXA6HbrUOFj7c4ZP7z9uFI4hDPPJM0TmRfhUGD/H7wVWCsfQHB7BtY+7hOFO5FXlh745sKf0GL8TwkdRIN3mOecJryZnVP+PSxg/TCKGLrZbyQNZxH6ubPiPCsP8JGL82hu+zzwZDLcqheEZViIw5iqFIQSr2THwWWUwlKYPxeylUhhCeD8Kg+BBJTCEYDa5rY7aD8G1QjGk27gg1DwftRhuR0OM9oIXC8XwE7KS+xNdbO8zDB4dIr0NQ1R1MjzDJZclqRiGEH7UvttuGDy6pM5mgqjaZAjjQxeTVAYDXuqC21Z7DCF4kvk8UZXJEMLvnvCyyyspIcboLTzDXPIFUG4QZcNI3qkm34+OXwXknUwwhhB+8QQdz3h9SNOnVd3WTUHYDIwh4Zkh4anYNei2jivv3+3+dzKBj/CFJYaRZhhBhhFkGEGGEWQYQYYRZBhBhhFkGEGGEWQYQYYRZBhBhhFkGEGGse5HqLn9X6q6LeFnW5ZlWa6c/QTp96K5bX9sowAAAABJRU5ErkJggg==" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles-sd.css" />
+    <meta name="description" content="Stable Diffusion Prompt Directory." />
+    <link
+      rel="icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVR4nO3bv2sUURDA8aeigkHwB+Rm7o4oYqOICjYWYqNNwMI/wM5aEOxEsFMRFCwUhETtlDR24lXCzVyS4oKNrVoYRAsLy7t5OLIn3r5EC7Nv497uzhdee3l8mP11e3HOsizLypZ2GlNKM3tLuTqNKZdnQvDCM2pZlxB+9YzLQvDcM9wc9uCsvju6o5YY/q9A8E0YHw+4ebL2GD7EIXg9oNaJ2k6GXz8pjF4I7+mrwztrj+HTKXmry612rSfDrz2frOoSHDEMHoN8UsKZ2k+GT6ek/8c5pG6HiV9zyOBdw+DxVUYGvcYxmwweT8iCYXA6HbrUOFj7c4ZP7z9uFI4hDPPJM0TmRfhUGD/H7wVWCsfQHB7BtY+7hOFO5FXlh745sKf0GL8TwkdRIN3mOecJryZnVP+PSxg/TCKGLrZbyQNZxH6ubPiPCsP8JGL82hu+zzwZDLcqheEZViIw5iqFIQSr2THwWWUwlKYPxeylUhhCeD8Kg+BBJTCEYDa5rY7aD8G1QjGk27gg1DwftRhuR0OM9oIXC8XwE7KS+xNdbO8zDB4dIr0NQ1R1MjzDJZclqRiGEH7UvttuGDy6pM5mgqjaZAjjQxeTVAYDXuqC21Z7DCF4kvk8UZXJEMLvnvCyyyspIcboLTzDXPIFUG4QZcNI3qkm34+OXwXknUwwhhB+8QQdz3h9SNOnVd3WTUHYDIwh4Zkh4anYNei2jivv3+3+dzKBj/CFJYaRZhhBhhFkGEGGEWQYQYYRZBhBhhFkGEGGEWQYQYYRZBhBhhFkGEGGse5HqLn9X6q6LeFnW5ZlWa6c/QTp96K5bX9sowAAAABJRU5ErkJggg=="
+      type="image/x-icon"
+    />
   </head>
 
-
   <body>
-
     <nav class="nav-desktop">
       <ol>
         <li class="title">Free, Simple, Open-Source.</li>
         <hr />
-        <a class="button-top" id="delayButton" href="PromptModifiers/addons.html">
+        <a
+          class="button-top"
+          id="delayButton"
+          href="PromptModifiers/addons.html"
+        >
           <li class="selected">
-            <i class="fa fa-home" aria-hidden="true"></i>
-            <span>Add-ons &nbsp</span>
-            <i class="fa fa-external-link"></i>
+            <i class="fa-solid fa-puzzle-piece"></i>
+            <span>Add-ons</span>
+            <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
           </li>
         </a>
         <a class="button-random" id="random-desktop">
@@ -33,7 +39,12 @@
           <li>
             <i class="fa fa-search" aria-hidden="true"></i>
             <span>
-              <input class="search" id="searchInput" type="text" placeholder="Search..">
+              <input
+                class="search"
+                id="searchInput"
+                type="text"
+                placeholder="Search.."
+              />
             </span>
           </li>
         </a>
@@ -41,19 +52,19 @@
         <li class="filters">Filters :</li>
         <a class="button-filter" data-filter="all">
           <li>
-            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <i class="fa-solid fa-o"></i>
             <span>ALL</span>
           </li>
         </a>
         <a class="button-filter" data-filter="positive">
           <li>
-            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa-solid fa-circle-plus"></i>
             <span>Positive</span>
           </li>
         </a>
         <a class="button-filter" data-filter="negative">
           <li>
-            <i class="fa fa-ban" aria-hidden="true"></i>
+            <i class="fa-solid fa-circle-minus"></i>
             <span>Negative</span>
           </li>
         </a>
@@ -61,7 +72,7 @@
     </nav>
 
     <label>
-      <input type="checkbox" aria-label="checkbox-menu">
+      <input type="checkbox" aria-label="checkbox-menu" />
       <span class="menu">
         <span class="hamburger"></span>
       </span>
@@ -87,7 +98,12 @@
           <a id="searchButton">
             <i class="fa fa-search" aria-hidden="true"></i>
             <span>
-              <input class="search" id="searchInput" type="text" placeholder="Search..">
+              <input
+                class="search"
+                id="searchInput"
+                type="text"
+                placeholder="Search.."
+              />
             </span>
           </a>
         </li>
@@ -97,19 +113,19 @@
         </li>
         <li>
           <a class="mbutton-filter" data-filter="all">
-            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <i class="fa-solid fa-o"></i>
             <span>ALL</span>
           </a>
         </li>
         <li>
           <a class="mbutton-filter" data-filter="positive">
-            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa-solid fa-circle-plus"></i>
             <span>Positive</span>
           </a>
         </li>
         <li>
           <a class="mbutton-filter" data-filter="negative">
-            <i class="fa fa-ban" aria-hidden="true"></i>
+            <i class="fa-solid fa-circle-minus"></i>
             <span>Negative</span>
           </a>
         </li>
@@ -117,136 +133,294 @@
     </label>
 
     <main>
-
       <div class="big-title">
         <h5>
           Welcome to <i>one</i> of the best
-          <span class="magic">
-            <span class="magic-star">
-              <svg viewBox="0 0 512 512">
-              <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
-              </svg>
-            </span>
-            <span class="magic-star">
-              <svg viewBox="0 0 512 512">
-              <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
-              </svg>
-            </span>
-            <span class="magic-star">
-              <svg viewBox="0 0 512 512">
-              <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
-              </svg>
-            </span>
-            <span class="magic-text">Stable Diffusion</span>
-          </span>
+          <span class="magic"
+            ><span class="magic-star"
+              ><svg viewbox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                ></path></svg
+            ></span>
+            <span class="magic-star"
+              ><svg viewbox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                ></path></svg
+            ></span>
+            <span class="magic-star"
+              ><svg viewbox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                ></path></svg
+            ></span>
+            <span class="magic-text">Stable Diffusion</span></span
+          >
           prompt Directory.
         </h5>
       </div>
-
       <div class="big-buttons">
-        <a class="big-btn" href="about/index.html" target="_blank">ABOUT  
-          <svg style="display: inline-block; width: 1.5em; height: 1.5em; padding-top: 10px;" viewbox="0 0 48 48">
-          <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 
-          0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 
-          0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
-          6-6v-12c0-1.2-0.8-2-2-2z"></path>
-          <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 
-          0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 
-          0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 
-          2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
-          </svg></a>
-        <a class="big-btn" target="_blank" href="https://projectadonis.tech/">HOME
-          <svg style="display: inline-block; width: 1.5em; height: 1.5em; padding-top: 10px;" viewbox="0 0 48 48">
-            <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 
-            0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 
-            0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
-            6-6v-12c0-1.2-0.8-2-2-2z"></path>
-            <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 
-            0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 
-            0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 
-            2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
-            </svg>
-        </a>
+        <a class="big-btn" href="about/index.html" target="_blank"
+          >ABOUT
+          <svg
+            style="
+              display: inline-block;
+              width: 1.5em;
+              height: 1.5em;
+              padding-top: 10px;
+            "
+            viewbox="0 0 48 48"
+          >
+            <path
+              d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6 6-6v-12c0-1.2-0.8-2-2-2z"
+            ></path>
+            <path
+              d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 2-2v-12c0-0.2 0-0.6-0.2-0.8z"
+            ></path></svg
+        ></a>
+        <a class="big-btn" target="_blank" href="https://projectadonis.tech/"
+          >HOME
+          <svg
+            style="
+              display: inline-block;
+              width: 1.5em;
+              height: 1.5em;
+              padding-top: 10px;
+            "
+            viewbox="0 0 48 48"
+          >
+            <path
+              d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6 6-6v-12c0-1.2-0.8-2-2-2z"
+            ></path>
+            <path
+              d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 2-2v-12c0-0.2 0-0.6-0.2-0.8z"
+            ></path></svg
+        ></a>
       </div>
-
       <div class="no-results">
         <h1>No results found.</h1>
       </div>
-      <div class="pcards" id="cardContainer">
-        <!-- Automatically generated cards-->
-      </div>
-
+      <div class="pcards" id="cardContainer"></div>
       <div class="ncards">
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Default <br>Negative</h2>
-            <p class="description">For higher-quality images, use these general prompts for any image generation with Stable Diffusion or other tools.</p>
-            <p class="ncopy">amputee, autograph, bad anatomy, bad illustration, bad proportions, beyond the borders, blank background, blurry, body out of frame, boring background, branding, cropped, cut off, deformed, disfigured, dismembered, disproportioned, distorted, draft, duplicate, duplicated features, extra arms, extra fingers, extra hands, extra legs, extra limbs, fault, flaw, fused fingers, grains, grainy, gross proportions, hazy, identifying mark, improper scale, incorrect physiology, incorrect ratio, indistinct, kitsch, logo, long neck, low quality, low resolution, macabre, malformed, mark, misshapen, missing arms, missing fingers, missing hands, missing legs, mistake, morbid, mutated hands, mutation, mutilated, off-screen, out of frame, outside the picture, pixelated, poorly drawn face, poorly drawn feet, poorly drawn hands, printed words, render, repellent, replicate, reproduce, revolting dimensions, script, shortened, sign, signature, split image, squint, storyboard, text, tiling, trimmed, ugly, unfocused, unattractive, unnatural pose, unreal engine, unsightly, watermark, written language, censored, floating limbs, disconnected head, huge calf, disappearing thigh, abnormal eye proportion, abnormal legs, abnormal feet</p>
+            <h2 class="ntitle">
+              Default<br />
+              Negative
+            </h2>
+            <p class="description">
+              For higher-quality images, use these general prompts for any image
+              generation with Stable Diffusion or other tools.
+            </p>
+            <p class="ncopy">
+              amputee, autograph, bad anatomy, bad illustration, bad
+              proportions, beyond the borders, blank background, blurry, body
+              out of frame, boring background, branding, cropped, cut off,
+              deformed, disfigured, dismembered, disproportioned, distorted,
+              draft, duplicate, duplicated features, extra arms, extra fingers,
+              extra hands, extra legs, extra limbs, fault, flaw, fused fingers,
+              grains, grainy, gross proportions, hazy, identifying mark,
+              improper scale, incorrect physiology, incorrect ratio, indistinct,
+              kitsch, logo, long neck, low quality, low resolution, macabre,
+              malformed, mark, misshapen, missing arms, missing fingers, missing
+              hands, missing legs, mistake, morbid, mutated hands, mutation,
+              mutilated, off-screen, out of frame, outside the picture,
+              pixelated, poorly drawn face, poorly drawn feet, poorly drawn
+              hands, printed words, render, repellent, replicate, reproduce,
+              revolting dimensions, script, shortened, sign, signature, split
+              image, squint, storyboard, text, tiling, trimmed, ugly, unfocused,
+              unattractive, unnatural pose, unreal engine, unsightly, watermark,
+              written language, censored, floating limbs, disconnected head,
+              huge calf, disappearing thigh, abnormal eye proportion, abnormal
+              legs, abnormal feet
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(sfw)</h2>
-            <p class="description">To ensure safe content generation and avoid NSFW (Not Safe For Work) results, refrain from using explicit or inappropriate prompts.</p>
-            <p class="ncopy">NSFW, Cleavage, Pubic Hair, Nudity, Naked, Au naturel, Watermark, Text, censored, deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (sfw)
+            </h2>
+            <p class="description">
+              To ensure safe content generation and avoid NSFW (Not Safe For
+              Work) results, refrain from using explicit or inappropriate
+              prompts.
+            </p>
+            <p class="ncopy">
+              NSFW, Cleavage, Pubic Hair, Nudity, Naked, Au naturel, Watermark,
+              Text, censored, deformed, bad anatomy, disfigured, poorly drawn
+              face, mutated, extra limb, ugly, poorly drawn hands, missing limb,
+              floating limbs, disconnected limbs, disconnected head, malformed
+              hands, long neck, mutated hands and fingers, bad hands, missing
+              fingers, cropped, worst quality, low quality, mutation, poorly
+              drawn, huge calf, bad hands, fused hand, missing hand,
+              disappearing arms, disappearing thigh, disappearing calf,
+              disappearing legs, missing fingers, fused fingers, abnormal eye
+              proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal
+              fingers
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(low token)</h2>
-            <p class="description">Low token negative prompt to improve image quality with Stable Diffusion or other tools.</p>
-            <p class="ncopy">lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (low token)
+            </h2>
+            <p class="description">
+              Low token negative prompt to improve image quality with Stable
+              Diffusion or other tools.
+            </p>
+            <p class="ncopy">
+              lowres, bad anatomy, bad hands, text, error, missing fingers,
+              extra digit, fewer digits, cropped, worst quality, low quality,
+              normal quality, jpeg artifacts, signature, watermark, username,
+              blurry
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(landscapes)</h2>
-            <p class="description">When creating images of a landscape, natural beauty, or scenic view on Stable Diffusion.</p>
-            <p class="ncopy">blurry, boring, close-up, dark, details are low, distorted details, eerie, foggy, gloomy, grains, grainy, grayscale, homogenous, low contrast, low quality, lowres, macro, monochrome, multiple angles, multiple views, opaque, overexposed, oversaturated, plain, plain background, portrait, simple background, standard, surreal, unattractive, uncreative, underexposed</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (landscapes)
+            </h2>
+            <p class="description">
+              When creating images of a landscape, natural beauty, or scenic
+              view on Stable Diffusion.
+            </p>
+            <p class="ncopy">
+              blurry, boring, close-up, dark, details are low, distorted
+              details, eerie, foggy, gloomy, grains, grainy, grayscale,
+              homogenous, low contrast, low quality, lowres, macro, monochrome,
+              multiple angles, multiple views, opaque, overexposed,
+              oversaturated, plain, plain background, portrait, simple
+              background, standard, surreal, unattractive, uncreative,
+              underexposed
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(cityscapes)</h2>
-            <p class="description">When generating images of cities, streets, buildings, and monuments, you can use the following negative prompt.</p>
-            <p class="ncopy">animals (optional), asymmetrical buildings, blurry, cars (optional), close-up, creepy, deformed structures, grainy, jpeg artifacts, low contrast, low quality, lowres, macro, multiple angles, multiple views, overexposed, oversaturated, people (optional), pets (optional), plain background, scary, solid background, surreal, underexposed, unreal architecture, unreal sky, weird colors</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (cityscapes)
+            </h2>
+            <p class="description">
+              When generating images of cities, streets, buildings, and
+              monuments, you can use the following negative prompt.
+            </p>
+            <p class="ncopy">
+              animals (optional), asymmetrical buildings, blurry, cars
+              (optional), close-up, creepy, deformed structures, grainy, jpeg
+              artifacts, low contrast, low quality, lowres, macro, multiple
+              angles, multiple views, overexposed, oversaturated, people
+              (optional), pets (optional), plain background, scary, solid
+              background, surreal, underexposed, unreal architecture, unreal
+              sky, weird colors
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(portraits)</h2>
-            <p class="description">When creating realistic-looking images of people and pets on Stable Diffusion.</p>
-            <p class="ncopy">3D, absent limbs, age spot, additional appendages, additional digits, additional limbs, altered appendages, amputee, asymmetric, asymmetric ears, bad anatomy, bad ears, bad eyes, bad face, bad proportions, beard (optional), broken finger, broken hand, broken leg, broken wrist, cartoon, childish (optional), cloned face, cloned head, collapsed eyeshadow, combined appendages, conjoined, copied visage, corpse, cripple, cropped head, cross-eyed, depressed, desiccated, disconnected limb, disfigured, dismembered, disproportionate, double face, duplicated features, eerie, elongated throat, excess appendages, excess body parts, excess extremities, extended cervical region, extra limb, fat, flawed structure, floating hair (optional), floating limb, four fingers per hand, fused hand, group of people, gruesome, high depth of field, immature, imperfect eyes, incorrect physiology, kitsch, lacking appendages, lacking body, long body, macabre, malformed hands, malformed limbs, mangled, mangled visage, merged phalanges, missing arm, missing leg, missing limb, mustache (optional), nonexistent extremities, old, out of focus, out of frame, parched, plastic, poor facial details, poor morphology, poorly drawn face, poorly drawn feet, poorly drawn hands, poorly rendered face, poorly rendered hands, six fingers per hand, skewed eyes, skin blemishes, squint, stiff face, stretched nape, stuffed animal, surplus appendages, surplus phalanges, surreal, ugly, unbalanced body, unnatural, unnatural body, unnatural skin, unnatural skin tone, weird colors</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (portraits)
+            </h2>
+            <p class="description">
+              When creating realistic-looking images of people and pets on
+              Stable Diffusion.
+            </p>
+            <p class="ncopy">
+              3D, absent limbs, age spot, additional appendages, additional
+              digits, additional limbs, altered appendages, amputee, asymmetric,
+              asymmetric ears, bad anatomy, bad ears, bad eyes, bad face, bad
+              proportions, beard (optional), broken finger, broken hand, broken
+              leg, broken wrist, cartoon, childish (optional), cloned face,
+              cloned head, collapsed eyeshadow, combined appendages, conjoined,
+              copied visage, corpse, cripple, cropped head, cross-eyed,
+              depressed, desiccated, disconnected limb, disfigured, dismembered,
+              disproportionate, double face, duplicated features, eerie,
+              elongated throat, excess appendages, excess body parts, excess
+              extremities, extended cervical region, extra limb, fat, flawed
+              structure, floating hair (optional), floating limb, four fingers
+              per hand, fused hand, group of people, gruesome, high depth of
+              field, immature, imperfect eyes, incorrect physiology, kitsch,
+              lacking appendages, lacking body, long body, macabre, malformed
+              hands, malformed limbs, mangled, mangled visage, merged phalanges,
+              missing arm, missing leg, missing limb, mustache (optional),
+              nonexistent extremities, old, out of focus, out of frame, parched,
+              plastic, poor facial details, poor morphology, poorly drawn face,
+              poorly drawn feet, poorly drawn hands, poorly rendered face,
+              poorly rendered hands, six fingers per hand, skewed eyes, skin
+              blemishes, squint, stiff face, stretched nape, stuffed animal,
+              surplus appendages, surplus phalanges, surreal, ugly, unbalanced
+              body, unnatural, unnatural body, unnatural skin, unnatural skin
+              tone, weird colors
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(photorealistic)</h2>
-            <p class="description">To create natural-looking, photorealistic images by eliminating unsuitable styles and elements.</p>
-            <p class="ncopy">3D render, aberrations, abstract, anime, black and white (optional), cartoon, collapsed, conjoined, creative, drawing, extra windows, harsh lighting, illustration, jpeg artifacts, low saturation, monochrome (optional), multiple levels, overexposed, oversaturated, painting, photoshop, rotten, sketches, surreal, twisted, UI, underexposed, unnatural, unreal engine, unrealistic, video game</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (photorealistic)
+            </h2>
+            <p class="description">
+              To create natural-looking, photorealistic images by eliminating
+              unsuitable styles and elements.
+            </p>
+            <p class="ncopy">
+              3D render, aberrations, abstract, anime, black and white
+              (optional), cartoon, collapsed, conjoined, creative, drawing,
+              extra windows, harsh lighting, illustration, jpeg artifacts, low
+              saturation, monochrome (optional), multiple levels, overexposed,
+              oversaturated, painting, photoshop, rotten, sketches, surreal,
+              twisted, UI, underexposed, unnatural, unreal engine, unrealistic,
+              video game
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
         <div class="ncard">
           <div class="ncontent">
-            <h2 class="ntitle">Negative <br>(art)</h2>
-            <p class="description">When generating paintings, illustrations, digital art, pop art, or drawings, here is a negative prompt you may use.</p>
-            <p class="ncopy">3d, bad art, bad artist, bad fan art, CGI, grainy, human (optional), inaccurate sky, inaccurate trees, kitsch, lazy art, less creative, lowres, noise, photorealistic, poor detailing, realism, realistic, render, stacked background, stock image, stock photo, text, unprofessional, unsmooth</p>
+            <h2 class="ntitle">
+              Negative<br />
+              (art)
+            </h2>
+            <p class="description">
+              When generating paintings, illustrations, digital art, pop art, or
+              drawings, here is a negative prompt you may use.
+            </p>
+            <p class="ncopy">
+              3d, bad art, bad artist, bad fan art, CGI, grainy, human
+              (optional), inaccurate sky, inaccurate trees, kitsch, lazy art,
+              less creative, lowres, noise, photorealistic, poor detailing,
+              realism, realistic, render, stacked background, stock image, stock
+              photo, text, unprofessional, unsmooth
+            </p>
             <button class="nbtn" onclick="copyText(this)">Copy</button>
           </div>
         </div>
-
+      </div>
     </main>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="generateCards.js" async defer></script>
     <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
     <script src="script-sd.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </body>
-  
 </html>
